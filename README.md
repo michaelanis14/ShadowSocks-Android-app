@@ -28,6 +28,9 @@ docker run --rm -v ${PWD}/build:/build circleci/android:api-28-ndk bash -c "cd /
 ### RUN WITH ANDROID STUDIO
 * Please Diable instant-run in Android studio
 
+### DEPLOY AND RELEASE
+* Prepare to replace any neseccery google-api key(s) you can find place holder: put-your-key-here  
+
 ## OPEN SOURCE LICENSES
 
 <ul>
