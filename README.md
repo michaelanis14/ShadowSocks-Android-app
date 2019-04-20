@@ -3,7 +3,7 @@ This is a port for ShadowSocks with a fixed set of severs.
 
 Orginal build: [Shadowsocks](https://shadowsocks.org) for Android
 
-For any questons please contact main developers at [Merply](info@merply.com)  
+For any questons please contact main developers at [Merply](mailto:info@merply.com)  
 
 ### PREREQUISITES
 
@@ -25,6 +25,8 @@ mkdir build
 sudo chown 3434:3434 build
 docker run --rm -v ${PWD}/build:/build circleci/android:api-28-ndk bash -c "cd /build; git clone https://github.com/shadowsocks/shadowsocks-android; cd shadowsocks-android; git submodule update --init --recursive; ./gradlew assembleDebug"
 ```
+### RUN WITH ANDROID STUDIO
+* Please Diable instant-run in Android studio
 
 ## OPEN SOURCE LICENSES
 
@@ -42,7 +44,7 @@ docker run --rm -v ${PWD}/build:/build circleci/android:api-28-ndk bash -c "cd /
 
 ### LICENSE
 
-Copyright (C) 2017 by [Max Lv](max.c.lv@gmail.com)  [Mygod Studio](contact-shadowsocks-android@mygod.be)
+Copyright (C) 2017 by [Max Lv](mailto:max.c.lv@gmail.com)  [Mygod Studio](mailto:contact-shadowsocks-android@mygod.be)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
