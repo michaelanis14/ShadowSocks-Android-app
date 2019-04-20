@@ -17,6 +17,8 @@ You can check whether the latest commit builds under UNIX environment by checkin
 
 * Clone the repo using `git clone --recurse-submodules <repo>` or update submodules using `git submodule update --init --recursive`
 * Build it using Android Studio or gradle script
+  * Please Disable instant-run in Android studio
+
 
 ### BUILD WITH DOCKER
 
@@ -25,8 +27,6 @@ mkdir build
 sudo chown 3434:3434 build
 docker run --rm -v ${PWD}/build:/build circleci/android:api-28-ndk bash -c "cd /build; git clone https://github.com/shadowsocks/shadowsocks-android; cd shadowsocks-android; git submodule update --init --recursive; ./gradlew assembleDebug"
 ```
-### RUN WITH ANDROID STUDIO
-* Please Diable instant-run in Android studio
 
 ### DEPLOY AND RELEASE
 * Prepare to replace any neseccery google-api key(s) you can find place holder: put-your-key-here  
