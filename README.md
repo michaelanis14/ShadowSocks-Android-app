@@ -25,6 +25,8 @@ mkdir build
 sudo chown 3434:3434 build
 docker run --rm -v ${PWD}/build:/build circleci/android:api-28-ndk bash -c "cd /build; git clone https://github.com/shadowsocks/shadowsocks-android; cd shadowsocks-android; git submodule update --init --recursive; ./gradlew assembleDebug"
 ```
+### RUN WITH ANDROID STUDIO
+* Please Diable instant-run in Android studio
 
 ## OPEN SOURCE LICENSES
 
