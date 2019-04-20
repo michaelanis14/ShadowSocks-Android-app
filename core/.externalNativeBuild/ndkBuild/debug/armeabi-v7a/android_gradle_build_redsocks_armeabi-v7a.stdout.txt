@@ -1,0 +1,29 @@
+[armeabi-v7a] Compile thumb  : redsocks <= base.c
+[armeabi-v7a] Compile thumb  : redsocks <= http-connect.c
+[armeabi-v7a] Compile thumb  : redsocks <= log.c
+[armeabi-v7a] Compile thumb  : redsocks <= md5.c
+[armeabi-v7a] Compile thumb  : redsocks <= socks5.c
+[armeabi-v7a] Compile thumb  : redsocks <= base64.c
+[armeabi-v7a] Compile thumb  : redsocks <= http-auth.c
+[armeabi-v7a] Compile thumb  : redsocks <= http-relay.c
+[armeabi-v7a] Compile thumb  : redsocks <= main.c
+[armeabi-v7a] Compile thumb  : redsocks <= parser.c
+[armeabi-v7a] Compile thumb  : redsocks <= redsocks.c
+[armeabi-v7a] Compile thumb  : redsocks <= socks4.c
+[armeabi-v7a] Compile thumb  : redsocks <= utils.c
+[armeabi-v7a] Compile thumb  : event <= buffer.c
+[armeabi-v7a] Compile thumb  : event <= bufferevent.c
+[armeabi-v7a] Compile thumb  : event <= event.c
+[armeabi-v7a] Compile thumb  : event <= bufferevent_sock.c
+[armeabi-v7a] Compile thumb  : event <= bufferevent_ratelim.c
+[armeabi-v7a] Compile thumb  : event <= evthread.c
+[armeabi-v7a] Compile thumb  : event <= log.c
+[armeabi-v7a] Compile thumb  : event <= evutil.c
+[armeabi-v7a] Compile thumb  : event <= evutil_time.c
+[armeabi-v7a] Compile thumb  : event <= evmap.c
+[armeabi-v7a] Compile thumb  : event <= epoll.c
+[armeabi-v7a] Compile thumb  : event <= poll.c
+[armeabi-v7a] Compile thumb  : event <= signal.c
+[armeabi-v7a] Compile thumb  : event <= select.c
+[armeabi-v7a] StaticLibrary  : libevent.a
+[armeabi-v7a] Executable     : libredsocks.so

@@ -1,0 +1,29 @@
+[x86] Compile        : redsocks <= base.c
+[x86] Compile        : redsocks <= http-connect.c
+[x86] Compile        : redsocks <= log.c
+[x86] Compile        : redsocks <= md5.c
+[x86] Compile        : redsocks <= socks5.c
+[x86] Compile        : redsocks <= base64.c
+[x86] Compile        : redsocks <= http-auth.c
+[x86] Compile        : redsocks <= http-relay.c
+[x86] Compile        : redsocks <= main.c
+[x86] Compile        : redsocks <= parser.c
+[x86] Compile        : redsocks <= redsocks.c
+[x86] Compile        : redsocks <= socks4.c
+[x86] Compile        : redsocks <= utils.c
+[x86] Compile        : event <= buffer.c
+[x86] Compile        : event <= bufferevent.c
+[x86] Compile        : event <= event.c
+[x86] Compile        : event <= bufferevent_sock.c
+[x86] Compile        : event <= bufferevent_ratelim.c
+[x86] Compile        : event <= evthread.c
+[x86] Compile        : event <= log.c
+[x86] Compile        : event <= evutil.c
+[x86] Compile        : event <= evutil_time.c
+[x86] Compile        : event <= evmap.c
+[x86] Compile        : event <= epoll.c
+[x86] Compile        : event <= poll.c
+[x86] Compile        : event <= signal.c
+[x86] Compile        : event <= select.c
+[x86] StaticLibrary  : libevent.a
+[x86] Executable     : libredsocks.so

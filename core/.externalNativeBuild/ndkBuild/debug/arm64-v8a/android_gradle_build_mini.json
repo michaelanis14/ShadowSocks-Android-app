@@ -1,0 +1,89 @@
+{
+  "buildFiles": [
+    "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk",
+    "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "redsocks-debug-arm64-v8a": {
+      "artifactName": "redsocks",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libredsocks.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libredsocks.so"
+    },
+    "tun2socks-debug-arm64-v8a": {
+      "artifactName": "tun2socks",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libtun2socks.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libtun2socks.so"
+    },
+    "cork-debug-arm64-v8a": {
+      "artifactName": "cork",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libcork.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libcork.a"
+    },
+    "ancillary-debug-arm64-v8a": {
+      "artifactName": "ancillary",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libancillary.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libancillary.a"
+    },
+    "pcre-debug-arm64-v8a": {
+      "artifactName": "pcre",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libpcre.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libpcre.a"
+    },
+    "sodium-debug-arm64-v8a": {
+      "artifactName": "sodium",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libsodium.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libsodium.a"
+    },
+    "mbedtls-debug-arm64-v8a": {
+      "artifactName": "mbedtls",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmbedtls.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmbedtls.a"
+    },
+    "ipset-debug-arm64-v8a": {
+      "artifactName": "ipset",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libipset.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libipset.a"
+    },
+    "ss-tunnel-debug-arm64-v8a": {
+      "artifactName": "ss-tunnel",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libss-tunnel.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libss-tunnel.so"
+    },
+    "bloom-debug-arm64-v8a": {
+      "artifactName": "bloom",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libbloom.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libbloom.a"
+    },
+    "ev-debug-arm64-v8a": {
+      "artifactName": "ev",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libev.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libev.a"
+    },
+    "event-debug-arm64-v8a": {
+      "artifactName": "event",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libevent.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libevent.a"
+    },
+    "ss-local-debug-arm64-v8a": {
+      "artifactName": "ss-local",
+      "buildCommand": "/Users/michaelbishara/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/lib -j4 /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libss-local.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libss-local.so"
+    }
+  }
+}

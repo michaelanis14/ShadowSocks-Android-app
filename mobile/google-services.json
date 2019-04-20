@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "586169399697",
+    "firebase_url": "https://vpn247-4b8d7.firebaseio.com",
+    "project_id": "vpn247-4b8d7",
+    "storage_bucket": "vpn247-4b8d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586169399697:android:455610577fac0988",
+        "android_client_info": {
+          "package_name": "com.github.vpn247"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586169399697-hqbot6r91kvgfiu3mojtk52a73bobnnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "put-your-key-here"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-3449246754548424~1813164372"
+    }
+  ],
+  "configuration_version": "1"
+}

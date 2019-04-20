@@ -1,0 +1,29 @@
+[arm64-v8a] Compile        : redsocks <= base.c
+[arm64-v8a] Compile        : redsocks <= http-connect.c
+[arm64-v8a] Compile        : redsocks <= log.c
+[arm64-v8a] Compile        : redsocks <= md5.c
+[arm64-v8a] Compile        : redsocks <= socks5.c
+[arm64-v8a] Compile        : redsocks <= base64.c
+[arm64-v8a] Compile        : redsocks <= http-auth.c
+[arm64-v8a] Compile        : redsocks <= http-relay.c
+[arm64-v8a] Compile        : redsocks <= main.c
+[arm64-v8a] Compile        : redsocks <= parser.c
+[arm64-v8a] Compile        : redsocks <= redsocks.c
+[arm64-v8a] Compile        : redsocks <= socks4.c
+[arm64-v8a] Compile        : redsocks <= utils.c
+[arm64-v8a] Compile        : event <= buffer.c
+[arm64-v8a] Compile        : event <= bufferevent.c
+[arm64-v8a] Compile        : event <= event.c
+[arm64-v8a] Compile        : event <= bufferevent_sock.c
+[arm64-v8a] Compile        : event <= bufferevent_ratelim.c
+[arm64-v8a] Compile        : event <= evthread.c
+[arm64-v8a] Compile        : event <= log.c
+[arm64-v8a] Compile        : event <= evutil.c
+[arm64-v8a] Compile        : event <= evutil_time.c
+[arm64-v8a] Compile        : event <= evmap.c
+[arm64-v8a] Compile        : event <= epoll.c
+[arm64-v8a] Compile        : event <= poll.c
+[arm64-v8a] Compile        : event <= signal.c
+[arm64-v8a] Compile        : event <= select.c
+[arm64-v8a] StaticLibrary  : libevent.a
+[arm64-v8a] Executable     : libredsocks.so

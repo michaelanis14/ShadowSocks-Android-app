@@ -1,0 +1,15 @@
+[x86] Compile        : ss-tunnel <= tunnel.c
+[x86] Compile        : ss-tunnel <= cache.c
+[x86] Compile        : ss-tunnel <= udprelay.c
+[x86] Compile        : ss-tunnel <= utils.c
+[x86] Compile        : ss-tunnel <= netutils.c
+[x86] Compile        : ss-tunnel <= json.c
+[x86] Compile        : ss-tunnel <= jconf.c
+[x86] Compile        : ss-tunnel <= crypto.c
+[x86] Compile        : ss-tunnel <= aead.c
+[x86] Compile        : ss-tunnel <= stream.c
+[x86] Compile        : ss-tunnel <= base64.c
+[x86] Compile        : ss-tunnel <= plugin.c
+[x86] Compile        : ss-tunnel <= ppbloom.c
+[x86] Compile        : ss-tunnel <= android.c
+[x86] Executable     : libss-tunnel.so

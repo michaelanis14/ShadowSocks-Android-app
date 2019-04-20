@@ -1,0 +1,414 @@
+In file included from /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/SocksUdpGwClient.c:32:
+In file included from /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/SocksUdpGwClient.h:42:
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[0] = n2->link[0]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[1] = n2->link[1]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->parent = n1->parent) {
+            ~~~~~~~~~~~^~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: note: place parentheses around the assignment to silence this warning
+        if (n2->parent = n1->parent) {
+                       ^
+            (                      )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: note: use '==' to turn this assignment into an equality comparison
+        if (n2->parent = n1->parent) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[!side] = c) {
+            ~~~~~~~~~~~~~~~~^~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: note: place parentheses around the assignment to silence this warning
+        if (n2->link[!side] = c) {
+                            ^
+            (                  )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[!side] = c) {
+                            ^
+                            ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->parent = n2->parent) {
+            ~~~~~~~~~~~^~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: note: place parentheses around the assignment to silence this warning
+        if (n1->parent = n2->parent) {
+                       ^
+            (                      )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: note: use '==' to turn this assignment into an equality comparison
+        if (n1->parent = n2->parent) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->parent = temp) {
+            ~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: note: place parentheses around the assignment to silence this warning
+        if (n2->parent = temp) {
+                       ^
+            (                )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: note: use '==' to turn this assignment into an equality comparison
+        if (n2->parent = temp) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[0] = n2->link[0]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[0] = temp) {
+            ~~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: note: place parentheses around the assignment to silence this warning
+        if (n2->link[0] = temp) {
+                        ^
+            (                 )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[0] = temp) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[1] = n2->link[1]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[1] = temp) {
+            ~~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: note: place parentheses around the assignment to silence this warning
+        if (n2->link[1] = temp) {
+                        ^
+            (                 )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[1] = temp) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:87:18: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    while (timer = (ref = BReactor__TimersTree_GetFirst(&bsys->timers_tree, 0)).link) {
+           ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:87:18: note: place parentheses around the assignment to silence this warning
+    while (timer = (ref = BReactor__TimersTree_GetFirst(&bsys->timers_tree, 0)).link) {
+                 ^
+           (                                                                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:87:18: note: use '==' to turn this assignment into an equality comparison
+    while (timer = (ref = BReactor__TimersTree_GetFirst(&bsys->timers_tree, 0)).link) {
+                 ^
+                 ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:130:18: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    while (timer = (ref = BReactor__TimersTree_GetFirst(&bsys->timers_tree, 0)).link) {
+           ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:130:18: note: place parentheses around the assignment to silence this warning
+    while (timer = (ref = BReactor__TimersTree_GetFirst(&bsys->timers_tree, 0)).link) {
+                 ^
+           (                                                                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:130:18: note: use '==' to turn this assignment into an equality comparison
+    while (timer = (ref = BReactor__TimersTree_GetFirst(&bsys->timers_tree, 0)).link) {
+                 ^
+                 ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:543:22: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    while (list_node = LinkedList1_GetFirst(&bsys->active_limits_list)) {
+           ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:543:22: note: place parentheses around the assignment to silence this warning
+    while (list_node = LinkedList1_GetFirst(&bsys->active_limits_list)) {
+                     ^
+           (                                                          )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:543:22: note: use '==' to turn this assignment into an equality comparison
+    while (list_node = LinkedList1_GetFirst(&bsys->active_limits_list)) {
+                     ^
+                     ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/system/BReactor_badvpn.c:1017:20: warning: expression result unused [-Wunused-value]
+    ASSERT_EXECUTE(res)
+                   ^~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/misc/debug.h:116:34: note: expanded from macro 'ASSERT_EXECUTE'
+    #define ASSERT_EXECUTE(e) { (e); }
+                                 ^
+10 warnings generated.
+4 warnings generated.
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/flow/PacketPassFairQueue.c:174:20: warning: expression result unused [-Wunused-value]
+    ASSERT_EXECUTE(res)
+                   ^~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/misc/debug.h:116:34: note: expanded from macro 'ASSERT_EXECUTE'
+    #define ASSERT_EXECUTE(e) { (e); }
+                                 ^
+1 warning generated.
+In file included from /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:63:
+In file included from /Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/SocksUdpGwClient.h:42:
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[0] = n2->link[0]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[1] = n2->link[1]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->parent = n1->parent) {
+            ~~~~~~~~~~~^~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: note: place parentheses around the assignment to silence this warning
+        if (n2->parent = n1->parent) {
+                       ^
+            (                      )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: note: use '==' to turn this assignment into an equality comparison
+        if (n2->parent = n1->parent) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[!side] = c) {
+            ~~~~~~~~~~~~~~~~^~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: note: place parentheses around the assignment to silence this warning
+        if (n2->link[!side] = c) {
+                            ^
+            (                  )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[!side] = c) {
+                            ^
+                            ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->parent = n2->parent) {
+            ~~~~~~~~~~~^~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: note: place parentheses around the assignment to silence this warning
+        if (n1->parent = n2->parent) {
+                       ^
+            (                      )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: note: use '==' to turn this assignment into an equality comparison
+        if (n1->parent = n2->parent) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->parent = temp) {
+            ~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: note: place parentheses around the assignment to silence this warning
+        if (n2->parent = temp) {
+                       ^
+            (                )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: note: use '==' to turn this assignment into an equality comparison
+        if (n2->parent = temp) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[0] = n2->link[0]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[0] = temp) {
+            ~~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:In file included from 392/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/udpgw_client/UdpGwClient.c::2537::
+ In file included from note: place parentheses around the assignment to silence this warning/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/udpgw_client/UdpGwClient.h:
+37:
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[0] = temp) {
+                        ^
+            (                 )
+        if (n1->link[0] = n2->link[0]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[0] = temp) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[1] = n2->link[1]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:353:25:/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h :note398: :place parentheses around the assignment to silence this warning
+25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+            (                        )
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h353::39825::25 :note : noteuse '==' to turn this assignment into an equality comparison: 
+use '==' to turn this assignment into an equality comparison
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+                        ==
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:
+401:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[1] = n2->link[1]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+        if (n2->link[1] = temp) {
+            ~~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: note: place parentheses around the assignment to silence this warning
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+            (                        )
+        if (n2->link[1] = temp) {
+                        ^
+            (                 )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:356:25: note: use '==' to turn this assignment into an equality comparison
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+                        ==
+        if (n2->link[1] = temp) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->parent = n1->parent) {
+            ~~~~~~~~~~~^~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: note: place parentheses around the assignment to silence this warning
+        if (n2->parent = n1->parent) {
+                       ^
+            (                      )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:360:24: note: use '==' to turn this assignment into an equality comparison
+        if (n2->parent = n1->parent) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[!side] = c) {
+            ~~~~~~~~~~~~~~~~^~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: note: place parentheses around the assignment to silence this warning
+        if (n2->link[!side] = c) {
+                            ^
+            (                  )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:368:29: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[!side] = c) {
+                            ^
+                            ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->parent = n2->parent) {
+            ~~~~~~~~~~~^~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: note: place parentheses around the assignment to silence this warning
+        if (n1->parent = n2->parent) {
+                       ^
+            (                      )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:376:24: note: use '==' to turn this assignment into an equality comparison
+        if (n1->parent = n2->parent) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->parent = temp) {
+            ~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: note: place parentheses around the assignment to silence this warning
+        if (n2->parent = temp) {
+                       ^
+            (                )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:381:24: note: use '==' to turn this assignment into an equality comparison
+        if (n2->parent = temp) {
+                       ^
+                       ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[0] = n2->link[0]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:389:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[0] = n2->link[0]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[0] = temp) {
+            ~~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: note: place parentheses around the assignment to silence this warning
+        if (n2->link[0] = temp) {
+                        ^
+            (                 )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:392:25: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[0] = temp) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n1->link[1] = n2->link[1]) {
+            ~~~~~~~~~~~~^~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: note: place parentheses around the assignment to silence this warning
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+            (                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:398:25: note: use '==' to turn this assignment into an equality comparison
+        if (n1->link[1] = n2->link[1]) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (n2->link[1] = temp) {
+            ~~~~~~~~~~~~^~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: note: place parentheses around the assignment to silence this warning
+        if (n2->link[1] = temp) {
+                        ^
+            (                 )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/structure/BAVL.h:401:25: note: use '==' to turn this assignment into an equality comparison
+        if (n2->link[1] = temp) {
+                        ^
+                        ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:670:17: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    while (node = LinkedList1_GetFirst(&tcp_clients)) {
+           ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:670:17: note: place parentheses around the assignment to silence this warning
+    while (node = LinkedList1_GetFirst(&tcp_clients)) {
+                ^
+           (                                        )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:670:17: note: use '==' to turn this assignment into an equality comparison
+    while (node = LinkedList1_GetFirst(&tcp_clients)) {
+                ^
+                ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:1548:20: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        } while (p = p->next);
+                 ~~^~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:1548:20: note: place parentheses around the assignment to silence this warning
+        } while (p = p->next);
+                   ^
+                 (          )
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:1548:20: note: use '==' to turn this assignment into an equality comparison
+        } while (p = p->next);
+                   ^
+                   ==
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/tun2socks/tun2socks.c:1873:88: warning: expression result unused [-Wunused-value]
+    ASSERT_EXECUTE(pbuf_copy_partial(p, client->buf + client->buf_used, p->tot_len, 0) == p->tot_len)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/badvpn/misc/debug.h:116:34: note: expanded from macro 'ASSERT_EXECUTE'
+    #define ASSERT_EXECUTE(e) { (e); }
+                                 ^
+10 warnings generated.
+13 warnings generated.

@@ -1,0 +1,14 @@
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/libev/ev.c:483:48: warning: '/*' within block comment [-Wcomment]
+/*#define MIN_INTERVAL  0.00000095367431640625 /* 1/2**20, good till 2200 */
+                                               ^
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/libev/ev.c:1831:31: warning: 'extern' variable has an initializer [-Wextern-initializer]
+  EV_API_DECL struct ev_loop *ev_default_loop_ptr = 0; /* needs to be initialised to make it a definition despite extern */
+                              ^
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/libev/ev.c:3878:34: warning: '&' within '|' [-Wbitwise-op-parentheses]
+  fd_change (EV_A_ fd, w->events & EV__IOFDSET | EV_ANFD_REIFY);
+                       ~~~~~~~~~~^~~~~~~~~~~~~ ~
+/Users/michaelbishara/Documents/GitHub/Vpn247-Release/core/src/main/jni/libev/ev.c:3878:34: note: place parentheses around the '&' expression to silence this warning
+  fd_change (EV_A_ fd, w->events & EV__IOFDSET | EV_ANFD_REIFY);
+                                 ^
+                       (                      )
+3 warnings generated.

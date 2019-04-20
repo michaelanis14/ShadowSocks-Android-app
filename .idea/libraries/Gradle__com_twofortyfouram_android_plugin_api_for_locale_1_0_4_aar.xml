@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twofortyfouram:android-plugin-api-for-locale:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0680cad280c931173b24c94efdd28d4a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0680cad280c931173b24c94efdd28d4a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twofortyfouram/android-plugin-api-for-locale/1.0.4/5ac4f1646efd3a2f505f21304db1a35d13a0edb3/android-plugin-api-for-locale-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

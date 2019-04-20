@@ -1,0 +1,86 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    buildToolsVersion rootProject.buildToolsVersion
+    compileSdkVersion rootProject.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.sdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            ndkBuild {
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+                arguments "-j${Runtime.runtime.availableProcessors()}"
+            }
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
+
+    sourceSets {
+        androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
+    }
+}
+
+task goBuild(type: Exec) {
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        println "Warning: Building on Windows is not supported"
+    } else {
+        executable "/bin/bash"
+        args "go-build.bash", minSdkVersion
+        environment "ANDROID_HOME", android.sdkDirectory
+        environment "ANDROID_NDK_HOME", android.ndkDirectory
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    if ((task.name == 'generateJsonModelDebug' || task.name == 'generateJsonModelRelease')) {
+        task.dependsOn(goBuild)
+    }
+}
+
+dependencies {
+    api project(':plugin')
+    api "android.arch.work:work-runtime-ktx:$workVersion"
+    api "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
+    api 'androidx.preference:preference:1.0.0'
+    api "androidx.room:room-runtime:$roomVersion"
+    api 'com.crashlytics.sdk.android:crashlytics:2.9.8'
+    api 'com.google.firebase:firebase-config:16.1.3'
+    api 'com.google.firebase:firebase-core:16.0.6'
+    api "com.takisoft.preferencex:preferencex:$preferencexVersion"
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycleVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+    testImplementation "androidx.arch.core:core-testing:$lifecycleVersion"
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "android.arch.work:work-testing:$workVersion"
+    androidTestImplementation "androidx.room:room-testing:$roomVersion"
+    androidTestImplementation "androidx.test:runner:$androidTestVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidEspressoVersion"
+    androidTestImplementation "androidx.test.ext:junit-ktx:1.1.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

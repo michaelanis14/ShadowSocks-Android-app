@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.github.vpn247.plugin">
+    <application
+        android:theme="@style/Theme.Shadowsocks">
+        <meta-data android:name="com.github.vpn247.plugin.version"
+                   android:value="0.1.0"/>
+    </application>
+</manifest>
