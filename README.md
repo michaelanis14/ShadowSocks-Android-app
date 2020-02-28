@@ -1,4 +1,4 @@
-## VPN24/7
+## Shadowsocks Android app
 This is a port for ShadowSocks with a fixed set of severs.
 
 Orginal build: [Shadowsocks](https://shadowsocks.org) for Android
